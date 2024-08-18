@@ -1,10 +1,10 @@
 const axios = require('axios');
 
 // API URLs
-const characterApiUrl = 'https://mir4collection.com:8000/api/players/profile/';
-const serverRankingApiUrl = 'https://mir4collection.com:8000/api/players/clan-ranking/';
-const clanRankingApiUrl = 'https://mir4collection.com:8000/api/players/clan-details/'; // Assuming a new endpoint for clan ranking by name
-const apiKey = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMxNSwiaWF0IjoxNzIzODY2ODM3fQ.5kruU9xtna6iZWY_cHaR6_2soTwydr251yMITS2C584';
+const characterApiUrl = 'https://api.mir4global.com:8000/api/players/profile/';
+const serverRankingApiUrl = 'https://api.mir4global.com:8000/api/players/clan-ranking/';
+const clanRankingApiUrl = 'https://api.mir4global.com:8000/api/players/clan-details/'; // Assuming a new endpoint for clan ranking by name
+const apiKey = 'Bearer TOKEN API';
 
 // Fetch character profile
 async function fetchCharacter(name) {
@@ -14,8 +14,8 @@ async function fetchCharacter(name) {
                 'Accept': 'application/json, text/plain, */*',
                 'Authorization': apiKey,
                 'Content-Type': 'application/json',
-                'Origin': 'https://mirkit.mir4collection.com',
-                'Referer': 'https://mirkit.mir4collection.com/',
+                'Origin': 'https://k.mir4global.com',
+                'Referer': 'https://k.mir4global.com/',
                 'Sec-Ch-Ua': '"Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"',
                 'Sec-Ch-Ua-Mobile': '?0',
                 'Sec-Ch-Ua-Platform': '"Windows"',
@@ -44,8 +44,8 @@ async function fetchServerRanking(serverName) {
                 'Accept': 'application/json, text/plain, */*',
                 'Authorization': apiKey,
                 'Content-Type': 'application/json',
-                'Origin': 'https://mirkit.mir4collection.com',
-                'Referer': 'https://mirkit.mir4collection.com/',
+                'Origin': 'https://k.mir4global.com',
+                'Referer': 'https://k.mir4global.com/',
                 'Sec-Ch-Ua': '"Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"',
                 'Sec-Ch-Ua-Mobile': '?0',
                 'Sec-Ch-Ua-Platform': '"Windows"',
@@ -74,8 +74,8 @@ async function fetchClanRanking(serverName, clanName) {
                 'Accept': 'application/json, text/plain, */*',
                 'Authorization': apiKey,
                 'Content-Type': 'application/json',
-                'Origin': 'https://mirkit.mir4collection.com',
-                'Referer': 'https://mirkit.mir4collection.com/',
+                'Origin': 'https://k.mir4global.com',
+                'Referer': 'https://k.mir4global.com/',
                 'Sec-Ch-Ua': '"Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"',
                 'Sec-Ch-Ua-Mobile': '?0',
                 'Sec-Ch-Ua-Platform': '"Windows"',
