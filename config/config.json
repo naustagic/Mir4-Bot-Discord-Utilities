@@ -1,0 +1,15 @@
+{
+  "token": "TOKEN_BOT_DISCORD",
+  "clientId": "1167935782946865303",
+  "channelId": "1272307778211549284",
+  "guildId": "1129257256328888320",
+  "presence": {
+    "activities": [
+      {
+        "name": "/search_character",
+        "type": 0
+      }
+    ],
+    "status": "online"
+  }
+}
