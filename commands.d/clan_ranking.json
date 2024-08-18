@@ -1,0 +1,20 @@
+{
+    "name": "clan_ranking",
+    "description": "Fetches the ranking of a specific clan on a given server.",
+    "type": 1,
+    "options": [
+      {
+        "type": 3,
+        "name": "server_name",
+        "description": "Specify the server name (e.g., EU023, EU024, ASIA041).",
+        "required": true
+      },
+      {
+        "type": 3,
+        "name": "clan_name",
+        "description": "Specify the clan name.",
+        "required": true
+      }
+    ]
+  }
+  

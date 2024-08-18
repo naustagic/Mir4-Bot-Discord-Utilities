@@ -1,0 +1,32 @@
+{
+    "name": "server_ranking",
+    "description": "Get the ranking of a specific server.",
+    "options": [
+      {
+        "type": 3,
+        "name": "region",
+        "description": "The region of the server.",
+        "required": true,
+        "choices": [
+          { "name": "ASIA1", "value": "ASIA1" },
+          { "name": "ASIA2", "value": "ASIA2" },
+          { "name": "ASIA3", "value": "ASIA3" },
+          { "name": "ASIA4", "value": "ASIA4" },
+          { "name": "INMENA1", "value": "INMENA1" },
+          { "name": "EU1", "value": "EU1" },
+          { "name": "SA1", "value": "SA1" },
+          { "name": "SA2", "value": "SA2" },
+          { "name": "NA1", "value": "NA1" },
+          { "name": "NA2", "value": "NA2" }
+        ]
+      },
+      {
+        "type": 3,
+        "name": "server",
+        "description": "The specific server name.",
+        "required": true,
+        "autocomplete": true
+      }
+    ]
+  }
+  

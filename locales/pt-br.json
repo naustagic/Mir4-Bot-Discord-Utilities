@@ -1,0 +1,16 @@
+{
+    "buscar_personagem": {
+        "description": "Busca informações de um personagem",
+        "options": {
+            "name": {
+                "description": "Nome do personagem"
+            }
+        }
+    },
+    "character_not_found": "The character {name} was not found, please check if the name is correct and respects spaces and special characters.",
+    "error": "An error occurred while fetching the character. Please try again later.",
+    "searching_message": "Searching for character, please wait...",
+    "searching_server_ranking": "Searching Server Ranking, please wait...",
+    "searching_character": "Searching Character, please wait...",
+    "searching_clan_details": "Searching for Clan details, please wait..."
+}
