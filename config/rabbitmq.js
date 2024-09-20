@@ -2,10 +2,10 @@ const amqp = require('amqplib');
 
 const rabbitMQConfig = {
     protocol: 'amqp',
-    hostname: '132.226.253.4',
+    hostname: 'localhost',
     port: 5672,
     username: 'guest',
-    password: 'rNB8yknDTrAn7H4'
+    password: 'pass'
 };
 
 let connection = null;
